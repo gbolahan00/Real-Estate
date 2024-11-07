@@ -1,129 +1,56 @@
 <template>
-    <div class="navbar container-fluid">
-        <h3 class="brand">
-            plotvista
-        </h3>
+    <nav>
+        <div class="navbar" :class="{ 'is-open': isSidebarOpen }">
+            <img src="../assets/Frame 1321317771.png" alt="" height="25px">
 
-        <ul class="links" :class="{ show: isOpen }">
-            <!-- <router-link to="/"> -->
-            <li class="active">
-                Home
-            </li>
-            <!-- </router-link> -->
-            <li>
-                Plots
-            </li>
-            <li>
-                About
-            </li>
-            <li>
-                Contacts
-            </li>
-        </ul>
+            <ul class="nav-links">
+                <li><router-link to="/">Home</router-link></li>
+                <li><router-link to="/plots" active-class="active">Plots</router-link></li>
+                <li><router-link to="/about" active-class="active">About</router-link></li>
+                <li><router-link to="/contact" active-class="active">Contact</router-link></li>
+            </ul>
 
-        <div class="buttons" :class="{ show: isOpen }">
-            <button class=" login-button">Login</button>
-            <button class="signup-button">Register</button>
+            <div class="nav-buttons">
+                <button class="login-button">Login</button>
+                <button class="signup-button">Register</button>
+            </div>
+
+            <div class="openNav" @click="toggleSidebar">
+                ☰
+            </div>
         </div>
 
-        <div class="toggle-button" @click="toggleNavbar">
-            X
+        <!-- Sidebar -->
+        <div class="sidebar" :class="{ 'is-open': isSidebarOpen }">
+            <ul class="links">
+                <li class="closeNav" @click="toggleSidebar">X</li>
+
+                <li><router-link to="/" @click="toggleSidebar">Home</router-link></li>
+                <li><router-link to="/plots" @click="toggleSidebar">Plots</router-link></li>
+                <li><router-link to="/about" @click="toggleSidebar">About</router-link></li>
+                <li><router-link to="/contact" @click="toggleSidebar">Contact</router-link></li>
+            </ul>
+            <div class="buttons">
+                <button class="login-button">Login</button>
+                <button class="signup-button">Register</button>
+            </div>
         </div>
-    </div>
+    </nav>
 </template>
 
-
 <script>
-
 export default {
     data() {
         return {
-            isOpen: false
-        }
+            isSidebarOpen: false,
+        };
     },
-
     methods: {
-        toggleNavbar() {
-            this.isOpen = !this.isOpen
-        }
-    }
-}
-
+        toggleSidebar() {
+            this.isSidebarOpen = !this.isSidebarOpen;
+        },
+    },
+};
 </script>
 
 
-<style scoped>
-.navbar {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 0px 0 25px 25px;
-    /* position: fixed; */
-    /* width: 100%; */
-    /* top: 0; */
-}
-
-.brand {
-    text-transform: uppercase;
-    font-weight: bolder;
-    margin: 0;
-}
-
-.links {
-    margin: 0;
-    padding: 0;
-}
-
-.links li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0px 15px;
-}
-
-.active {
-    color: #004E95;
-    font-weight: bolder;
-}
-
-.login-button {
-    all: unset;
-    padding: 8px 25px;
-    font-weight: bolder;
-}
-
-.signup-button {
-    all: unset;
-    padding: 8px 25px;
-    border: 2px solid #004E95;
-    border-radius: 8px;
-    font-weight: bolder;
-}
-
-.toggle-button {
-    display: none;
-}
-
-@media (max-width: 768px) {
-
-.navbar {
-    padding: 5px 15px;
-}
-
-    .toggle-button {
-        display: block;
-    }
-
-    .links {
-        display: none;
-    }
-
-    .buttons {
-        display: none;
-    }
-
-    .show {
-        display: block;
-    }
-}
-</style>

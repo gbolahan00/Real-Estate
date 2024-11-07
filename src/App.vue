@@ -23,7 +23,7 @@ export default {
 </script>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -32,12 +32,13 @@ export default {
 
 
 nav a {
+  text-decoration: none;
   font-weight: bold;
-  color: #2c3e50;
+  color: black
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #004E95;
 }
 
 
@@ -45,10 +46,14 @@ body {
   margin: 0;
   padding: 0;
   color: black;
-
+  width: 100%
 }
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+*{
+  box-sizing: border-box;
 }
 </style>
