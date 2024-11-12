@@ -1,0 +1,58 @@
+{
+    "records": [
+        {
+            "id": 1,
+            "number": "18+",
+            "stats": "Satisfied Clients"
+        },
+        {
+            "id": 2,
+            "number": "10K+",
+            "stats": "Plots Delivered"
+        },
+        {
+            "id": 3,
+            "number": "10+",
+            "stats": "Years of Experience"
+        }
+    ],
+    "featuredProperties": [
+        {
+            "id": 1,
+            "image": "Greenland Acres.png",
+            "like": "love.png",
+            "name": "Greenland Acres",
+            "rating": "4.0",
+            "price": "₦5,000,000",
+            "location": "Lagos, Nigeria",
+            "description": "Nestled near serene rolling hills, Greenhaven Acres offers expansive plots perfect for your dream home. "
+        },
+        {
+            "id": 2,
+            "image": "Suncrest Estates.png",
+            "like": "love.png",
+            "name": "Suncrest Estates",
+            "rating": "4.0",
+            "price": "₦8,500,000",
+            "location": "Abuja, Nigeria",
+            "description": "Suncrest Estates boasts sun-drenched plots with breathtaking views of the countryside"
+        },
+        {
+            "id": 3,
+            "image": "RiverStone Valley.png",
+            "like": "love.png",
+            "name": "RiverStone Valley",
+            "rating": "4.8",
+            "price": "₦7,200,000",
+            "location": "Ogun, Nigeria",
+            "description": "Located near a tranquil riverbank, Riverstone Valley features premium plots ideal for nature lovers"
+        }
+    ],
+
+    "Latest Listings": [
+        {
+            "id": 1,
+            "image": "Victoria Creast.png"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "records": [
+        {
+            "id": 1,    
+            "units": "18+",            
+            "status": "Happy Clients"
+        },
+
+        {
+            "id": 2,    
+            "units": "10k+",            
+            "status": "Plots"
+        },
+
+        {
+            "id": 3,    
+            "units": "12+",            
+            "status": "Experience"
+        }
+
+    ]
+}

@@ -42,18 +42,5 @@ nav a.router-link-exact-active {
 }
 
 
-body {
-  margin: 0;
-  padding: 0;
-  color: black;
-  width: 100%
-}
 
-::-webkit-scrollbar {
-  display: none;
-}
-
-*{
-  box-sizing: border-box;
-}
 </style>

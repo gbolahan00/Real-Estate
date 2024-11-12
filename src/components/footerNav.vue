@@ -23,7 +23,7 @@
                         <div class="col-12 col-md-4 p-0 pb-3 pb-md-0">
                             <div class="footer-links">
                                 <h4>Company</h4>
-                                <router-link to="/home">Home</router-link>
+                                <router-link to="/">Home</router-link>
                                 <router-link to="/plots">Plots</router-link>
                                 <router-link to="/about">About</router-link>
                                 <router-link to="/contact">Contact</router-link>

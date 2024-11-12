@@ -1,3 +1,34 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    width: 100%
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
 /*========================= Navbar  ===========================*/
 
 .navbar {
@@ -71,7 +102,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    z-index: 10;
+    z-index: 9;
 }
 
 .sidebar.is-open {
@@ -147,8 +178,8 @@
         border-radius: 0 0 15px 15px;
     }
 
-    .brand {
-        font-size: small;
+    .sidebar {
+        width: 75vw;
     }
 
 
@@ -279,7 +310,7 @@
 @media (max-width: 768px) {
 
     .hero-section {
-        height: 70vh;
+        height:85vh;
     }
 
     .content {
@@ -318,7 +349,7 @@
 @media (max-width: 576px) {
 
     .hero-section {
-        height: 85vh;
+        height: 70vh;
     }
 
     .content {
@@ -353,3 +384,192 @@
         font-size: 0.6em;
     }
 }
+
+
+/* ======================== HomeView Section 2 ======================== */
+
+.section-2,
+.section-3 {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.records {
+    border: 0px solid rgba(163, 163, 163, 0.3);
+    border-top: 5px solid #004d95f9;
+    border-radius: 8px;
+    box-shadow: 0px 5px 5px rgba(163, 163, 163, 0.9);
+    background-color: white;
+    margin: 0px auto;
+    padding: 20px;
+    width: 60%;
+    position: relative;
+    top: -50px;
+    z-index: 7;
+}
+
+.featured-properties .heading h3, 
+.latest-listing .heading h3{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.featured-properties .heading h3::after,
+.latest-listing .heading h3::after {
+    content: "";
+    border-bottom: #004E95 solid 4px;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.featured-properties .heading p,
+.latest-listing .heading p {
+    margin-bottom: 30px;
+}
+
+.featured-properties-card {
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+.featured-properties .cards {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+}
+
+.featured-properties-card .cards .card-badges {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.featured-properties .cards .card-badges .img {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.featured-properties .cards .img:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+
+.featured-properties .cards .card-badges .like-icon {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.featured-properties .cards .card-badges .fire-icon {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.featured-properties .cards .card-badges .flash-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.featured-properties-card .cards .card-body {
+    padding: 20px 5px;
+    overflow: hidden;
+}
+
+.featured-properties-card .cards .card-body .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #333;
+}
+
+.featured-properties-card .cards .card-body .icon {
+    color: #ffc107;
+    margin-left: 4px;
+}
+
+.featured-properties-card .cards .card-body .text {
+    font-size: 12px;
+    font-weight: 600;
+    color: #121212;
+    margin: 8px 0;
+}
+
+.featured-properties-card .cards .card-body .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #333;
+}
+
+.featured-properties-card .cards .card-body .price .btn {
+    padding: 8px 16px;
+    background-color: #004E95;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .records {
+        width: 90%;
+    }
+
+    .records .number {
+        font-size: 18px;
+    }
+
+    .records .stats {
+        font-size: 15px;
+    }
+
+    .featured-properties .cards .card-badges .img {
+        position: relative;
+        width: 300px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 576px) {
+    .featured-properties .cards .card-badges .img {
+        position: relative;
+        width: 300px;
+        overflow: hidden;
+    }
+
+    .records {
+        width: 90%;
+    }
+
+    .records .number {
+        font-size: 15px;
+    }
+
+    .records .stats {
+        font-size: 11px;
+    }
+}
+
+
+/* ======================= HomeView Section 3======================== */

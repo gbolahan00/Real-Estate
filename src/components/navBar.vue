@@ -24,7 +24,6 @@
         <div class="sidebar" :class="{ 'is-open': isSidebarOpen }">
             <ul class="links">
                 <li class="closeNav" @click="toggleSidebar">X</li>
-
                 <li><router-link to="/" @click="toggleSidebar">Home</router-link></li>
                 <li><router-link to="/plots" @click="toggleSidebar">Plots</router-link></li>
                 <li><router-link to="/about" @click="toggleSidebar">About</router-link></li>
