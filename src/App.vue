@@ -2,7 +2,7 @@
 
   <NavBar />
 
-  <router-view />
+  <router-view></router-view>
 
   <FooterNav />
 

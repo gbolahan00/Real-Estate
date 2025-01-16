@@ -48,11 +48,118 @@
             "description": "Located near a tranquil riverbank, Riverstone Valley features premium plots ideal for nature lovers"
         }
     ],
-
-    "Latest Listings": [
+    "LatestListings": [
         {
             "id": 1,
-            "image": "Victoria Creast.png"
+            "image": "Victoria Crest.png",
+            "like": "love.png",
+            "name": "Victoria Crest",
+            "location": "Victoria island, Lagos",
+            "price": "₦150,000,000",
+            "size": "900 sqm"
+        },
+        {
+            "id": 2,
+            "image": "Emerald Gardens.png",
+            "like": "love.png",
+            "name": "Emrald Gardens",
+            "location": "Gwarimpa, Abuja",
+            "price": "₦40,000,000",
+            "size": "1,000 sqm"
+        },
+        {
+            "id": 3,
+            "image": "Eko Pearl Estate.png",
+            "like": "love.png",
+            "name": "Eko Pearl Estate",
+            "location": "Eko Atlantic, Lagos",
+            "price": "₦180,000,000",
+            "size": "1,200 sqm"
+        },
+        {
+            "id": 4,
+            "image": "Amber Heights.png",
+            "like": "love.png",
+            "name": "Amber Heights",
+            "location": "Wuse II, Abuja",
+            "price": "₦80,000,000",
+            "size": "1,100 sqm"
+        }
+    ],
+    "testimonials": [
+        {
+            "id": 1,
+            "image": "Chinedu Reviews.png",
+            "name": "Chinedu .O.",
+            "location": "Lagos, Nigeria",
+            "rating": "5.0",
+            "review": "PlotVista made buying my first plot in Lagos a breeze! The interactive maps and detailed property information helped me make an informed decision. The team was incredibly supportive throughout the process. I highly recommend them to anyone looking to invest in land."
+        },
+        {
+            "id": 2,
+            "image": "Fatima reviews.png",
+            "name": "Fatima .A.",
+            "location": "Abuja, Nigeria",
+            "rating": "4.8",
+            "review": "I was looking for a plot to build my dream home, and PlotVista delivered exactly what I needed. The transparency in pricing and the professional advice from their team gave me complete confidence. I’m thrilled with my purchase!"
+        },
+        {
+            "id": 3,
+            "image": "Bayo reviews.png",
+            "name": "Bayo .G.",
+            "location": "Lagos, Nigeria",
+            "rating": "4.5",
+            "review": "The convenience of browsing plots on PlotVista is unmatched. From virtual tours to detailed descriptions, everything was easy to navigate. The customer service team was also fantastic in answering all my questions. I’ll definitely use PlotVista again for future investments."
+        }
+    ],
+    "faqs": [
+        {
+            "id": 1,
+            "question": "How do I search for available plots on PlotVista?",
+            "answer": "To search for available plots on PlotVista, go to the website and use the search feature by entering keywords like location, plot size, or price range. You can further filter results by criteria such as plot type or proximity to amenities. Browse through the listings to view detailed information and images of matching plots. If you find one that interests you, save it to your favorites or contact the PlotVista team for more information. This streamlined process makes it easy to find and explore available plots on PlotVista.",
+            "open": false
+        },
+        {
+            "id": 2,
+            "question": "Are the prices listed negotiable?",
+            "answer": "Yes, in many cases, the prices listed on PlotVista are negotiable. However, this can vary depending on the seller and specific plot. For more details or to discuss pricing, it’s best to contact the PlotVista team or the listing agent directly, as they can provide guidance on negotiation options for a particular property.",
+            "open": false
+        },
+        {
+            "id": 3,
+            "question": "Can I schedule a site visit to see the plot in person?",
+            "answer": "Yes, you can schedule a site visit to see the plot in person. PlotVista offers the option to arrange visits for interested buyers. Simply contact the PlotVista team or the listing agent through the website to set up a convenient date and time for your visit. This allows you to get a closer look and make a more informed decision about the property.",
+            "open": false
+        },
+        {
+            "id": 4,
+            "question": "How do I know the plots are legally available for sale?",
+            "answer": "PlotVista ensures that all listed plots are legally available for sale by conducting thorough verification processes. Each plot undergoes a legal review to confirm clear ownership, proper documentation, and compliance with local regulations. Additionally, you can request to view the legal documentation or consult with a legal professional for extra assurance.",
+            "open": false
+        },
+        {
+            "id": 5,
+            "question": "What is the process for purchasing a plot on PlotVista?",
+            "answer": "To purchase a plot on PlotVista, simply click the 'Buy Now' button on the listing page. You will be redirected to the checkout page where you can review the details of your purchase and enter your payment information. Once you complete the payment, your order will be processed, and you will receive confirmation of your purchase.",
+            "open": false
+        },
+        {
+            "id": 6,
+            "question": "How long does it take to complete the purchase process?",
+            "answer": "The purchase process typically takes less than 24 hours from the moment you place your order. However, it may take longer in some cases, such as during peak hours or holidays.",
+            "open": false
+        },
+        {
+            "id": 7,
+            "question": "What payment methods are accepted?",
+            "answer": "PlotVista accepts a variety of payment methods to ensure flexibility for buyers, including bank transfers, cheques (subject to prior arrangement), online payments via credit or debit cards, and in some cases, cash payments. For more details on specific payment options and any associated plans, it’s advisable to contact the PlotVista team directly.",
+            "open": false
+        },
+        {
+            "id": 8,
+            "question": "Can I reserve a plot and pay later?",
+            "answer": "Yes, PlotVista offers the option to reserve a plot and pay later, depending on the specific terms and conditions of the listing. Typically, a reservation fee may be required to secure the plot, with the remaining balance due within an agreed-upon time frame. It's important to discuss the payment schedule and reservation terms with the PlotVista team or the listing agent to ensure you understand the process and deadlines.",
+            "open": false
         }
     ]
 }
